@@ -1,5 +1,11 @@
-gn_matchsize/
-  blender_manifest.toml
-  __init__.py
-  assets/
-    GN_MatchSize.blend
+schema_version = "1.0.0"
+
+id = "gn_matchsize"
+name = "GN MatchSize"
+version = "0.0.1"
+type = "add-on"
+maintainer = "HenDaSheng"
+tagline = "Houdini-style Match Size node group for Geometry Nodes"
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
