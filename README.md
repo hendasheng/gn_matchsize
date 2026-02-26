@@ -2,7 +2,7 @@
 
 [中文](README_CN.md)
 
-![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/2026-02-26_17-55-11_trimmed_compressed-ezgif.com-optimize.gif)
+![](images/demo.gif)
 
 GN_MatchSize is a size matching and alignment tool built with Geometry Nodes, inspired by Houdini’s Match Size node.
 
