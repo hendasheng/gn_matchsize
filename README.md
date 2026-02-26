@@ -10,6 +10,21 @@ When introduced into a Geometry Nodes setup, GN_MatchSize can bring multiple geo
 
 This is a general‑purpose base node designed for procedural modeling, asset normalization, and batch processing.
 
+## Installation
+
+### Blender Extensions (Recommended)
+
+1. Download [gn_matchsize.zip](https://github.com/hendasheng/gn_matchsize/releases)
+2. Open Blender, go to `Edit` → `Preferences` → `Get Extensions`
+3. Click the arrow in the top right, select **Install from Disk...**
+4. Select the downloaded `gn_matchsize.zip` to install
+
+After installation:
+- Open Geometry Nodes Editor
+- Press `Shift + A`
+- Select `Group` → `GN_MatchSize` (or search for `Match Size`)
+- The node will appear in your current file
+
 ## Features
 
 ### 1. Automatic Size Calculation

@@ -2,13 +2,30 @@
 
 [English](README.md)
 
-> **Blender 4.2+**
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/2026-02-26_17-55-11_trimmed_compressed-ezgif.com-optimize.gif)
 
 GN_MatchSize 是一个基于几何节点实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size 节点。
 
 在几何节点中引入 GN_MatchSize，它可以将多个几何对象调整到统一比例，并将位置归零，在面对不同来源的几何时非常有用。
 
 这是一个为程序化建模、资产规范化、批量处理而设计的通用基础节点。
+
+> **Blender 4.2+**
+
+## 安装
+
+### Blender Extensions (推荐)
+
+1. 下载 [gn_matchsize.zip](https://github.com/hendasheng/gn_matchsize/releases)
+2. 打开 Blender，进入 `Edit` → `Preferences` → `Get Extensions`
+3. 点击右上角箭头，选择 **Install from Disk...**
+4. 选择下载的 `gn_matchsize.zip` 并安装
+
+安装完成后：
+- 打开 Geometry Nodes 编辑器
+- 按 `Shift + A`
+- 选择 `Group` → `GN_MatchSize` (或者直接搜索 `Match Size`)
+- 节点会自动出现在当前文件中
 
 
 ## 功能说明
