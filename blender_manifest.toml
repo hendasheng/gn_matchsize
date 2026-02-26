@@ -2,7 +2,7 @@ schema_version = "1.0.0"
 
 id = "gn_matchsize"
 name = "GN MatchSize"
-version = "0.0.2"
+version = "0.0.1"
 type = "add-on"
 maintainer = "HenDaSheng"
 tagline = "Houdini-style Match Size node group for Geometry Nodes"
