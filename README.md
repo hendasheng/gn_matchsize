@@ -2,7 +2,7 @@
 
 [中文](README_CN.md)
 
-> **Blender 4.2+**
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/2026-02-26_17-55-11_trimmed_compressed-ezgif.com-optimize.gif)
 
 GN_MatchSize is a size matching and alignment tool built with Geometry Nodes, inspired by Houdini’s Match Size node.
 
@@ -11,8 +11,7 @@ When introduced into a Geometry Nodes setup, GN_MatchSize can bring multiple geo
 This is a general‑purpose base node designed for procedural modeling, asset normalization, and batch processing.
 
 ## Installation
-
-### Blender Extensions (Recommended)
+> **Blender 4.2 +**
 
 1. Download [gn_matchsize.zip](https://github.com/hendasheng/gn_matchsize/releases)
 2. Open Blender, go to `Edit` → `Preferences` → `Get Extensions`
@@ -20,10 +19,12 @@ This is a general‑purpose base node designed for procedural modeling, asset no
 4. Select the downloaded `gn_matchsize.zip` to install
 
 After installation:
-- Open Geometry Nodes Editor
+- Open **Geometry Nodes** Editor
 - Press `Shift + A`
 - Select `Group` → `GN_MatchSize` (or search for `Match Size`)
 - The node will appear in your current file
+
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/20260226182011.png)
 
 ## Features
 
