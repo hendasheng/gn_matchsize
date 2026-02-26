@@ -1,0 +1,5 @@
+gn_matchsize/
+  blender_manifest.toml
+  __init__.py
+  assets/
+    GN_MatchSize.blend
