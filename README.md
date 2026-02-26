@@ -1,6 +1,8 @@
 # GN_MatchSize
 Houdini-style Match Size for Blender Geometry Nodes
 
+> **Blender 4.5+**
+
 GN_MatchSize 是一个基于 Geometry Nodes 实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size SOP。
 
 它可以：
