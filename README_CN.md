@@ -2,20 +2,14 @@
 
 [English](README.md)
 
-Houdini-style Match Size for Blender Geometry Nodes
+> **Blender 4.2+**
 
-> **Blender 4.5+**
+GN_MatchSize 是一个基于几何节点实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size 节点。
 
-GN_MatchSize 是一个基于 Geometry Nodes 实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size SOP。
-
-它可以：
-- 自动计算几何 Bounding Box
-- 支持 Uniform Scale（最长边匹配）
-- 支持按轴对齐（Min / Center / Max）
-- 支持实例与真实几何
-- 纯节点实现，无脚本依赖
+在几何节点中引入 GN_MatchSize，它可以将多个几何对象调整到统一比例，并将位置归零，在面对不同来源的几何时非常有用。
 
 这是一个为程序化建模、资产规范化、批量处理而设计的通用基础节点。
+
 
 ## 功能说明
 
@@ -62,4 +56,3 @@ GN_MatchSize 是一个基于 Geometry Nodes 实现的尺寸匹配与对齐工具
 - 可嵌入任意节点系统
 - 可二次封装为资产工具
 - 支持实例 Realize 或直接实例模式
-

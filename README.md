@@ -2,20 +2,13 @@
 
 [中文](README_CN.md)
 
-Houdini-style Match Size for Blender Geometry Nodes
+> **Blender 4.2+**
 
-> **Blender 4.5+**
+GN_MatchSize is a size matching and alignment tool built with Geometry Nodes, inspired by Houdini’s Match Size node.
 
-**GN_MatchSize** is a size matching and alignment tool based on Geometry Nodes, inspired by Houdini's Match Size SOP.
+When introduced into a Geometry Nodes setup, GN_MatchSize can bring multiple geometry objects to a unified scale and reset their position to the origin. It is particularly useful when handling geometry from different sources.
 
-It can:
-- Automatically calculate geometry Bounding Box
-- Support Uniform Scale (match longest axis)
-- Support Axis Alignment (Min / Center / Max)
-- Support both Instances and Real Geometry
-- Pure node implementation, no script dependencies
-
-This is a general-purpose utility node designed for procedural modeling, asset normalization, and batch processing.
+This is a general‑purpose base node designed for procedural modeling, asset normalization, and batch processing.
 
 ## Features
 
