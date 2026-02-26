@@ -1,8 +1,8 @@
 bl_info = {
     "name": "GN MatchSize",
     "author": "HenDaSheng",
-    "version": (0, 0, 1),
-    "blender": (4, 5, 0),
+    "version": (0, 0, 2),
+    "blender": (4, 2, 0),
     "location": "Geometry Nodes > Add > Group",
     "description": "Houdini-style Match Size node group",
     "category": "Geometry Nodes",
