@@ -1,62 +1,64 @@
 # GN_MatchSize
+
+[中文](README_CN.md)
+
 Houdini-style Match Size for Blender Geometry Nodes
 
 > **Blender 4.5+**
 
-GN_MatchSize 是一个基于 Geometry Nodes 实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size SOP。
+**GN_MatchSize** is a size matching and alignment tool based on Geometry Nodes, inspired by Houdini's Match Size SOP.
 
-它可以：
-- 自动计算几何 Bounding Box
-- 支持 Uniform Scale（最长边匹配）
-- 支持按轴对齐（Min / Center / Max）
-- 支持实例与真实几何
-- 纯节点实现，无脚本依赖
+It can:
+- Automatically calculate geometry Bounding Box
+- Support Uniform Scale (match longest axis)
+- Support Axis Alignment (Min / Center / Max)
+- Support both Instances and Real Geometry
+- Pure node implementation, no script dependencies
 
-这是一个为程序化建模、资产规范化、批量处理而设计的通用基础节点。
+This is a general-purpose utility node designed for procedural modeling, asset normalization, and batch processing.
 
-## 功能说明
+## Features
 
-### 1. 自动尺寸计算
-内部通过：
+### 1. Automatic Size Calculation
+Internally calculates:
 `Size = Max - Min`
-分别计算 X / Y / Z 轴尺寸。
-可用于：
-- 统一资产比例
-- 规范化导入模型
-- 自动适配不同来源的几何
+Separately for X / Y / Z axes.
+Useful for:
+- Unifying asset scale
+- Normalizing imported models
+- Automatically adapting geometry from different sources
 
-### 2. 等比缩放
-缩放逻辑：
+### 2. Uniform Scale
+Scaling logic:
 `scale = target / longest_axis`
-确保最长边匹配目标尺寸，同时保持比例。
+Ensures the longest edge matches the target size while maintaining the aspect ratio.
 
-### 3. 轴向对齐（Align）
-每个轴支持：
--1 = Min  
-0 = Center  
-1 = Max
+### 3. Axis Alignment (Align)
+Each axis supports:
+- `-1` = Min
+- `0` = Center
+- `1` = Max
 
-通过数学方式计算偏移：
+Calculates offset mathematically:
 `offset = -(center + align * size * 0.5)`
 
-无需分支节点，纯数学控制。
-支持：
-- 居中
-- 贴底
-- 贴顶
-- 混合对齐（例如 X Min / Y Center / Z Max）
+No branch nodes, pure math control.
+Supports:
+- Center alignment
+- Bottom alignment (grounding)
+- Top alignment
+- Mixed alignment (e.g., X Min / Y Center / Z Max)
 
-## 使用场景
-- 资产标准化
-- 程序化阵列
-- 自动尺寸规范
+## Use Cases
+- Asset Standardization
+- Procedural Arrays
+- Automatic Size Normalization
 - Geometry Nodes Pipeline
-- 类 Houdini 工作流
+- Houdini-like Workflow
 
-## 技术实现特点
-- 纯 Geometry Nodes
-- 无 Python 依赖
-- 可嵌入任意节点系统
-- 可二次封装为资产工具
-- 支持实例 Realize 或直接实例模式
-
+## Technical Implementation
+- Pure Geometry Nodes
+- No Python dependencies
+- Embeddable in any node system
+- Can be re-wrapped as an asset tool
+- Supports Instance Realize or Direct Instance mode
