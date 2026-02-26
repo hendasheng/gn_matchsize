@@ -2,14 +2,19 @@
 
 [English](README.md)
 
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/GN_MatchSize_Github@1x.png)
 
+GN_MatchSize 是一个基于 Blender 几何节点（Geometry Nodes）实现的尺寸匹配与对齐工具，灵感来源于 Houdini 的 Match Size 节点。
 
-GN_MatchSize 是一个基于几何节点实现的尺寸匹配与对齐工具，灵感来自 Houdini 的 Match Size 节点。
+在几何节点工作流中引入 GN_MatchSize，可以将多个几何对象统一到相同尺寸比例，并根据需求自动完成对齐与归零操作。在处理来自不同来源、尺度不统一的几何数据时尤为高效。
 
-在几何节点中引入 GN_MatchSize，它可以将多个几何对象调整到统一比例，并将位置归零，在面对不同来源的几何时非常有用。
+该节点特别适用于：
+- 程序化建模流程
+- 资产标准化处理
+- 批量几何规范化
+- 多来源模型的比例统一
 
-这是一个为程序化建模、资产规范化、批量处理而设计的通用基础节点。
-
+GN_MatchSize 是一个为程序化建模与资产规范化设计的通用基础节点。
 
 ## 安装
 > **Blender 4.2 +**

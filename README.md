@@ -2,11 +2,17 @@
 
 [中文](README_CN.md)
 
-![](images/demo.gif)
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/GN_MatchSize_Github_en@1x%20(1).png)
 
-GN_MatchSize is a size matching and alignment tool built with Geometry Nodes, inspired by Houdini’s Match Size node.
+GN_MatchSize is a size matching and alignment tool built with Blender Geometry Nodes, inspired by Houdini’s Match Size node.
 
-When introduced into a Geometry Nodes setup, GN_MatchSize can bring multiple geometry objects to a unified scale and reset their position to the origin. It is particularly useful when handling geometry from different sources.
+When introduced into a Geometry Nodes workflow, GN_MatchSize can bring multiple geometry objects to a unified scale, and automatically perform alignment and zeroing operations as needed. It is particularly useful when handling geometry from different sources with inconsistent scales.
+
+This node is particularly suitable for:
+- Procedural modeling workflows
+- Asset standardization processing
+- Batch geometry normalization
+- Scale unification of multi-source models
 
 This is a general‑purpose base node designed for procedural modeling, asset normalization, and batch processing.
 
@@ -24,7 +30,7 @@ After installation:
 - Select `Group` → `GN_MatchSize` (or search for `Match Size`)
 - The node will appear in your current file
 
-![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/20260226182011.png)
+![](https://picgo-mdeia.oss-cn-beijing.aliyuncs.com/picgo/github_media/20260226174858.png)
 
 ## Features
 
