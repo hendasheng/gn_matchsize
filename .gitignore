@@ -1,0 +1,10 @@
+# Blender backups and build output
+*.blend1
+*.blend2
+*.zip
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
